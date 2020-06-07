@@ -2,7 +2,7 @@ package leetcode1165;
 
 public class FindTotalTimeToTypeFunction {
 	public int calculateTime(String keyboard, String word) {
-		// Could have used a hashmap too but it will cost extra space
+		//hashmap will cost extra space
 		// there are only 26 lowercase letters
 		int[] countMap = new int[26];
 		
